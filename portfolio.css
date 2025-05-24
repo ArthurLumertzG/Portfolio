@@ -1,108 +1,140 @@
 * {
   margin: 0;
   padding: 0;
-}
-body {
-  background: linear-gradient(135deg, #a5d6a7 0%, #f5f5dc 100%);
-}
-nav {
-  display: flex;
-  flex-direction: row;
-  background-color: #2e7d32;
-  justify-content: space-evenly;
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  font-family: Helvetica;
 }
 
-nav h4 {
-  font-size: 14px;
-  color: #a5d6a7;
+nav {
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#nome {
+  margin-left: 9%;
+}
+#frase {
+  font-family: "Allura";
+  font-weight: 400;
+  font-style: italic;
+}
+
+.textos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: justify;
+}
+
+.barraVertical {
+  margin-top: 2%;
+  border-left: 1px solid black;
+  width: 5px;
+  height: 370px;
+}
+
+#barras {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 3%;
+}
+.barraHorizontal {
+  border-top: 1px solid black;
+  width: 550px;
+  height: 5px;
 }
 
 section {
-  background-color: #efe1c6;
-  padding: 30px;
-  margin-left: 2%;
-  padding-bottom: 70px;
-  margin-bottom: 0.1%;
-  border-radius: 10px;
-  box-shadow: 10px 10px 50px gray;
+  width: 35%;
+  padding: 10px;
 }
 
+section h5 {
+  font-size: 15px;
+}
 #sessao1 {
-  margin-top: 15%;
-  margin-right: 40%;
-}
-
-#sessao1 h2 {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 26px;
-  color: #2e7d32;
-}
-
-h5 {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 18px;
-  color: #2e7d32;
-}
-h4 {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 21px;
-  color: #2e7d32;
+  margin-top: 3%;
 }
 
 #sessao2 {
-  margin-right: 30%;
+  margin-top: 3%;
+}
+
+#github {
+  color: blue;
+}
+
+#box {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 #sessao3 {
-  margin-right: 20%;
-}
-
-#skills {
-  width: 90%;
-  padding-bottom: 20px;
-}
-
-#divy {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
   text-align: center;
-  margin-right: 10%;
+  font-size: 15px;
+  padding: 20px;
+  margin-right: -5%;
+}
+#sessao3 h2 {
+  margin-bottom: 2%;
+}
+
+#sessao4 {
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+}
+
+#sessao4 h2 {
+  margin-bottom: 2%;
+}
+#sessao4 div {
+  margin-bottom: 2%;
+  padding: 5px;
+  border: solid 1px gray;
+  border-radius: 5px;
 }
 
 #projetos {
-  width: 90%;
-  margin-left: 2%;
-  padding-bottom: 20px;
-}
-
-#caixa {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  max-width: 100%;
-  min-height: 20%;
-}
-a {
-  width: 50%;
-  text-decoration: none;
-  padding: 0px;
-  margin: 0px;
-}
-#caixa div {
-  width: 60%;
-  background-color: #2e7d32;
-  border-radius: 10px;
-  text-align: start;
+  justify-content: space-evenly;
 }
 
-#caixa img {
+#projetos div {
+  margin: 5%;
+  background-color: black;
+}
+
+#projetos h4 {
+  color: white;
+  font-size: 18px;
+}
+
+img {
   width: 100%;
+}
+
+a {
+  text-decoration: none;
 }
 
 ul {
   list-style: none;
+}
+
+li {
+  color: white;
+  font-size: 12px;
 }

@@ -12,34 +12,30 @@
   <body>
     <nav id="eu">
       <h4 id="nome">Arthur Lumertz Guimarães</h4>
-      <h4 id="busca">Estágio | Desenvolvedor Júnior</h4>
-      <h4 id="frase">
+      <h4 >Desenvolvedor</h4>
+      <h4 id="frase" >
         "De estudante a desenvolvedor, uma linha de código por vez."
       <h4>
     </nav>
 
-        <img src="/sitePortfolio/img/foguete.webp" alt="">
-        <img src="/sitePortfolio/img/fumaca.png" alt="">
-        <!--*<img src="/sitePortfolio/img/foto.png" alt=""> -->
-
-    <main id="textos">
+    <main class="textos">
       <section id="sessao1">
-        <h2>
+        <h2 style="text-indent: 20px;">
           Olá, eu sou Arthur Lumertz Guimarães, um desenvolvedor em busca de uma
           primeira experiência
         </h2>
-        <h5>
-            Tenho 19 anos e sou natural de Três Cachoeiras, uma pequena cidade no
+        <h5 style="text-indent: 20px;">
+          Tenho 19 anos e sou natural de Três Cachoeiras, uma pequena cidade no
           litoral norte do Rio Grande do Sul. Concluí o Ensino Médio na minha
           cidade natal e, logo em seguida, iniciei o curso de Ciência da
           Computação na UNESC, onde atualmente curso o 3º semestre. Desde então,
           venho aprofundando meus conhecimentos em programação, buscando crescer
           como desenvolvedor e profissional da área de tecnologia.
         </h5>
-      </section>
+      
       <br />
-      <section id="sessao2">
-        <h4>
+      
+        <h5 style="text-indent: 20px;">
             Meu primeiro contato com a área da computação foi na UNESC, onde
           iniciei meus estudos em Ciência da Computação. Escolhi essa área por
           diversos motivos: o mercado de trabalho promissor, a qualidade do
@@ -50,6 +46,12 @@
           fundamental em tornar o dia a dia das pessoas mais fácil e eficiente,
           e é justamente isso que me motiva: desenvolver soluções tecnológicas
           que ajudem no cotidiano das pessoas.
+          </section>
+
+          <p class="barraVertical"></p>
+
+      <section id="sessao2">
+        <h5 style="text-indent: 20px;">
             Atualmente, estou me aprofundando principalmente em C++, Java e bancos
           de dados relacionais, com foco em PostgreSQL.Também possuo bom nível
           de inglês, o que me permite acompanhar documentações técnicas, cursos
@@ -57,14 +59,13 @@
           meus estudos estão disponíveis no meu GitHub e podem ser acessados
           livremente por qualquer pessoa interessada.
           <br>
-          <a href="https://github.com/ArthurLumertzG" target="_blank"
+          <a href="https://github.com/ArthurLumertzG" target="_blank" id="github"
             >👉Acesse meu GitHub</a
           >
-        </h4>
-      </section>
+        </h5>
+      
       <br />
-      <section id="sessao3">
-        <h4>
+        <h5 style="text-indent: 20px;">
             Ainda não possuo experiência profissional na área, mas estou em busca
           de oportunidades como estagiário ou desenvolvedor júnior. Durante meus
           estudos, me identifiquei especialmente com o desenvolvimento back-end,
@@ -78,39 +79,48 @@
           Acredito que o esporte desenvolve habilidades valiosas como trabalho
           em equipe, disciplina e foco, qualidades que levo também para minha
           formação como desenvolvedor.
-        </h4>
-      </section>
+        </h5>
+     
     </main>
-    <br />
-    <div id="divy">
-    <section id="skills">
-      <h3>🛠️ Habilidades Técnicas Habilidade</h3>
-      <h3>🧠 Habilidade | Nível de Proficiência</h3>
-      <progress value="100" max="100">Barra de progresso</progress>
 
-      <h3>Inglês | Intermediário / Avançado</h3>
+    <div id="barras">
+      <p class="barraHorizontal"></p>
+      <p class="barraHorizontal"></p>
+    </div>
+    
+    <div id="box">
+    <section id="sessao3">
+      <h2>🛠️ Habilidades Técnicas Habilidade</h2>
+
+      <h4>🧠 Habilidade | Nível de Proficiência</h4>
+      <progress value="100" max="100">Barra de progresso</progress>
+      <h4>Inglês | Intermediário / Avançado</h4>
       <progress value="70" max="100"></progress>
-      <h3>Java | Intermediário</h3>
+      <h4>Java | Intermediário</h4>
       <progress value="50" max="100"></progress>
-      <h3>C | Intermediário</h3>
+      <h4>C | Intermediário</h4>
       <progress value="50" max="100"></progress>
-      <h3>C++ | Iniciante</h3>
+      <h4>C++ | Iniciante</h4>
       <progress value="30" max="100"></progress>
-      <h3>PostgreSQL | Iniciante</h3>
+      <h4>PostgreSQL | Iniciante</h4>
       <progress value="30" max="100"></progress>
-      <h3>Versionamento | Iniciante</h3>
+      <h4>Versionamento | Iniciante</h4>
       <progress value="30" max="100"></progress>
-      <h3>HTML | Iniciante</h3>
+      <h4>HTML | Iniciante</h4>
       <progress value="30" max="100"></progress>
-      <h3>CSS | Iniciante</h3>
+      <h4>CSS | Iniciante</h4>
       <progress value="30" max="100"></progress>
     </section>
+      
 
-    <!--
-    <section id="projetos">
-      <h1>🧪 Projetos</h1>
-      <h4>Principais projetos que podem ser encontrados em meu GitHub</h4>
-      <div id="caixa">
+      <p class="barraVertical"></p>
+
+
+        <section id="sessao4">
+      <h2>🧪 Projetos</h2>
+      <h4>Projetos que podem ser encontrados em meu GitHub</h4>
+      <section id="projetos">
+
       <a
         href="https://github.com/ArthurLumertzG/ExerciciosJAVA/blob/main/TrabalhoCalculosJAVA.zip"
         target="_blank"
@@ -126,29 +136,32 @@
             <li>Conferência de entradas</li>
             <li>Cálculos úteis para o cotidiano</li>
           </ul>
-        </div>
-      </a>
+          </a>
+          </div>
+        </a>
 
-      <a
-        href="https://chatgpt.com/c/682f4cd8-1280-8013-9bb0-1054fa03bf12"
+         <a
+        href="https://github.com/ArthurLumertzG/ExerciciosJAVA/blob/main/TrabalhoCalculosJAVA.zip"
         target="_blank"
       >
-        <div id="nomeProjeto">
+        <div id="projeto2">
           <img
             src="./sitePortfolio/img/telaCalculos.png"
             alt="imagem do projeto"
           />
-          <h4>Nome Projeto</h4>
+          <h4>Projeto 2</h4>
           <ul>
-            <li>Ponto1</li>
-            <li>Ponto2</li>
-            <li>Ponto3</li>
+            <li>Tela para usuário</li>
+            <li>Conferência de entradas</li>
+            <li>Cálculos úteis para o cotidiano</li>
           </ul>
+          </a>
+          </div>
+        </a>
+
+        </section>
+        </section>
         </div>
-      </a>
-      </div>
-    </section>
-    </div>
-    -->
+  
   </body>
 </html>
