@@ -209,12 +209,17 @@ a {
 }
 
 @media screen and (max-width: 1103px) {
+  nav h4 {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
   section {
     width: 45%;
   }
 
   #sessao4 {
-    font-size: 24px;
+    font-size: 28px;
     width: 45%;
   }
 
@@ -223,24 +228,24 @@ a {
   }
 
   section h5 {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   #sessao3 {
-    font-size: 23px;
+    font-size: 27px;
   }
 
   #projetos h4 {
-    font-size: 26px;
+    font-size: 30px;
   }
 
   li {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   #contato {
     margin-left: 27.5%;
     width: 45%;
-    font-size: 23px;
+    font-size: 27px;
   }
 }
