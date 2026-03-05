@@ -1,476 +1,294 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Arthur Lumertz — Desenvolvedor Back-end</title>
-    <link rel="shortcut icon" href="img/icone.jpg" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Outfit:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="portfolio.css" />
-  </head>
-  <body>
-    <!-- NAV -->
-    <nav>
-      <span class="nav-logo">Arthur<span>.</span></span>
-      <ul class="nav-links">
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#formacao">Formação</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arthur Lumertz — Desenvolvedor Back-end</title>
+  <link rel="shortcut icon" href="img/icone.jpg" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
 
-    <!-- HERO -->
-    <div id="hero">
-      <div class="hero-bg-lines"></div>
-      <div class="hero-glow"></div>
-      <div class="hero-inner">
-        <div class="hero-photo-wrap">
-          <img src="img/foto.jpg" alt="Arthur Lumertz" />
-        </div>
-        <div class="hero-text">
-          <p class="hero-label">Desenvolvedor Back-end · Três Cachoeiras, RS</p>
-          <h1 class="hero-name">Arthur Lumertz<em>Guimarães</em></h1>
-          <p class="hero-sub">
-            Desenvolvedor focado em back-end com Java e Spring, construindo
-            soluções robustas e bem estruturadas. Cursando o 5º semestre de
-            Ciência da Computação na UNESC.
-          </p>
-          <div class="hero-tags">
-            <span class="tag">Java</span>
-            <span class="tag">Spring</span>
-            <span class="tag">PostgreSQL</span>
-            <span class="tag">React</span>
-            <span class="tag">REST APIs</span>
-          </div>
-          <div class="hero-cta">
-            <a
-              href="https://github.com/ArthurLumertzG"
-              target="_blank"
-              class="btn-primary"
-            >
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-              >
-                <path
-                  d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.21.09 1.85 1.24 1.85 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02.005 2.04.14 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.49 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.21.7.83.58C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"
-                />
-              </svg>
-              GitHub
-            </a>
-            <a
-              href="https://www.linkedin.com/in/arthur-lumertz-guimaraes-169220341/"
-              target="_blank"
-              class="btn-outline"
-              >LinkedIn</a
-            >
-            <a href="#contato" class="btn-outline">Contato</a>
-          </div>
-        </div>
+  <!-- NAV -->
+  <nav>
+    <span class="nav-logo">Arthur<span>.</span></span>
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#formacao">Formação</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <div id="hero">
+    <div class="hero-bg-lines"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-inner">
+      <div class="hero-photo-wrap">
+        <img src="img/foto.jpg" alt="Arthur Lumertz" />
       </div>
-      <div class="hero-scroll">
-        <span class="scroll-line"></span>
-        Rolar
+      <div class="hero-text">
+        <p class="hero-label">Desenvolvedor Back-end · Três Cachoeiras, RS</p>
+        <h1 class="hero-name">
+          Arthur Lumertz<em>Guimarães</em>
+        </h1>
+        <p class="hero-sub">
+          Desenvolvedor focado em back-end com Java e Spring, construindo soluções robustas e bem estruturadas. Cursando o 5º semestre de Ciência da Computação na UNESC.
+        </p>
+        <div class="hero-tags">
+          <span class="tag">Java</span>
+          <span class="tag">Spring</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">React</span>
+          <span class="tag">REST APIs</span>
+        </div>
+        <div class="hero-cta">
+          <a href="https://github.com/ArthurLumertzG" target="_blank" class="btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.21.09 1.85 1.24 1.85 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02.005 2.04.14 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.49 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.21.7.83.58C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/arthur-lumertz-guimaraes-169220341/" target="_blank" class="btn-outline">LinkedIn</a>
+          <a href="#contato" class="btn-outline">Contato</a>
+        </div>
       </div>
     </div>
+    <div class="hero-scroll">
+      <span class="scroll-line"></span>
+      Rolar
+    </div>
+  </div>
 
-    <div class="section-divider"></div>
+  <div class="section-divider"></div>
 
-    <!-- SOBRE -->
-    <section class="block" id="sobre">
-      <p class="section-label reveal">01 — Sobre mim</p>
-      <h2 class="section-title reveal">Quem sou eu</h2>
-      <div class="about-grid">
-        <div class="reveal">
-          <p>
-            Tenho 19 anos e sou natural de <strong>Três Cachoeiras</strong>, uma
-            pequena cidade no litoral norte do Rio Grande do Sul. Atualmente
-            curso o
-            <strong>5º semestre de Ciência da Computação na UNESC</strong>, onde
-            venho aprofundando continuamente minha base técnica.
-          </p>
-          <p>
-            Me identifiquei especialmente com o
-            <strong>desenvolvimento back-end</strong>, trabalhando
-            principalmente com Java e Spring. Acredito que tecnologia tem o
-            poder de simplificar o cotidiano das pessoas — e é isso que me
-            motiva a escrever código bem estruturado e de qualidade.
-          </p>
-          <p>
-            Fora do teclado, sou apaixonado por esportes: jogo vôlei e futebol,
-            mantenho rotina de treinos na academia e acompanho de perto NBA, NFL
-            e competições de futebol. O esporte me ensinou disciplina, trabalho
-            em equipe e foco — valores que carrego para o dia a dia como
-            desenvolvedor.
-          </p>
+  <!-- SOBRE -->
+  <section class="block" id="sobre">
+    <p class="section-label reveal">01 — Sobre mim</p>
+    <h2 class="section-title reveal">Quem sou eu</h2>
+    <div class="about-grid">
+      <div class="reveal">
+        <p>Tenho 19 anos e sou natural de <strong>Três Cachoeiras</strong>, uma pequena cidade no litoral norte do Rio Grande do Sul. Atualmente curso o <strong>5º semestre de Ciência da Computação na UNESC</strong>, onde venho aprofundando continuamente minha base técnica.</p>
+        <p>Me identifiquei especialmente com o <strong>desenvolvimento back-end</strong>, trabalhando principalmente com Java e Spring. Acredito que tecnologia tem o poder de simplificar o cotidiano das pessoas — e é isso que me motiva a escrever código bem estruturado e de qualidade.</p>
+        <p>Fora do teclado, sou apaixonado por esportes: jogo vôlei e futebol, mantenho rotina de treinos na academia e acompanho de perto NBA, NFL e competições de futebol. O esporte me ensinou disciplina, trabalho em equipe e foco — valores que carrego para o dia a dia como desenvolvedor.</p>
+      </div>
+      <div class="about-stats reveal">
+        <div class="stat-box">
+          <div class="stat-num">5°</div>
+          <div class="stat-label">Semestre em Ciência da Computação</div>
         </div>
-        <div class="about-stats reveal">
-          <div class="stat-box">
-            <div class="stat-num">5°</div>
-            <div class="stat-label">Semestre em Ciência da Computação</div>
-          </div>
-          <div class="stat-box">
-            <div class="stat-num">4</div>
-            <div class="stat-label">Projetos no GitHub</div>
-          </div>
-          <div class="stat-box">
-            <div class="stat-num">B2</div>
-            <div class="stat-label">Inglês — Intermediário / Avançado</div>
-          </div>
-          <div class="stat-box">
-            <div class="stat-num">∞</div>
-            <div class="stat-label">Vontade de aprender</div>
-          </div>
+        <div class="stat-box">
+          <div class="stat-num">Java</div>
+          <div class="stat-label">Linguagem Principal</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">B2</div>
+          <div class="stat-label">Inglês — Intermediário / Avançado</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">∞</div>
+          <div class="stat-label">Vontade de aprender</div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <div class="section-divider"></div>
+  <div class="section-divider"></div>
 
-    <!-- HABILIDADES -->
-    <section id="habilidades">
-      <div
-        class="block"
-        style="max-width: 1100px; margin: 0 auto; padding: 0 60px"
-      >
-        <p class="section-label reveal">02 — Stack</p>
-        <h2 class="section-title reveal">Habilidades Técnicas</h2>
-        <div class="skills-grid">
-          <div class="skill-item reveal">
-            <div class="skill-header">
-              <span class="skill-name">Java</span
-              ><span class="skill-pct">50%</span>
-            </div>
-            <div class="skill-bar-bg">
-              <div class="skill-bar-fill" data-width="50"></div>
-            </div>
-            <div class="skill-level">Intermediário</div>
-          </div>
+  <!-- HABILIDADES -->
+  <section id="habilidades">
+    <div class="block" style="max-width:1100px;margin:0 auto;padding:0 60px;">
+      <p class="section-label reveal">02 — Stack</p>
+      <h2 class="section-title reveal">Habilidades Técnicas</h2>
+      <div class="skills-grid">
 
-          <div class="skill-item reveal">
-            <div class="skill-header">
-              <span class="skill-name">Spring Framework</span
-              ><span class="skill-pct">30%</span>
-            </div>
-            <div class="skill-bar-bg">
-              <div class="skill-bar-fill" data-width="30"></div>
-            </div>
-            <div class="skill-level">Iniciante</div>
-          </div>
-
-          <div class="skill-item reveal">
-            <div class="skill-header">
-              <span class="skill-name">PostgreSQL</span
-              ><span class="skill-pct">30%</span>
-            </div>
-            <div class="skill-bar-bg">
-              <div class="skill-bar-fill" data-width="30"></div>
-            </div>
-            <div class="skill-level">Iniciante</div>
-          </div>
-
-          <div class="skill-item reveal">
-            <div class="skill-header">
-              <span class="skill-name">React</span
-              ><span class="skill-pct">25%</span>
-            </div>
-            <div class="skill-bar-bg">
-              <div class="skill-bar-fill" data-width="25"></div>
-            </div>
-            <div class="skill-level">Iniciante</div>
-          </div>
-
-          <div class="skill-item reveal">
-            <div class="skill-header">
-              <span class="skill-name">C / C++</span
-              ><span class="skill-pct">50%</span>
-            </div>
-            <div class="skill-bar-bg">
-              <div class="skill-bar-fill" data-width="50"></div>
-            </div>
-            <div class="skill-level">Intermediário</div>
-          </div>
-
-          <div class="skill-item reveal">
-            <div class="skill-header">
-              <span class="skill-name">Git & Versionamento</span
-              ><span class="skill-pct">35%</span>
-            </div>
-            <div class="skill-bar-bg">
-              <div class="skill-bar-fill" data-width="35"></div>
-            </div>
-            <div class="skill-level">Iniciante</div>
-          </div>
-
-          <div class="skill-item reveal">
-            <div class="skill-header">
-              <span class="skill-name">HTML & CSS</span
-              ><span class="skill-pct">40%</span>
-            </div>
-            <div class="skill-bar-bg">
-              <div class="skill-bar-fill" data-width="40"></div>
-            </div>
-            <div class="skill-level">Iniciante / Intermediário</div>
-          </div>
-
-          <div class="skill-item reveal">
-            <div class="skill-header">
-              <span class="skill-name">Inglês</span
-              ><span class="skill-pct">75%</span>
-            </div>
-            <div class="skill-bar-bg">
-              <div class="skill-bar-fill" data-width="75"></div>
-            </div>
-            <div class="skill-level">Intermediário / Avançado (B2)</div>
-          </div>
-
-          <div class="skill-item reveal">
-            <div class="skill-header">
-              <span class="skill-name">Modelagem Relacional</span
-              ><span class="skill-pct">35%</span>
-            </div>
-            <div class="skill-bar-bg">
-              <div class="skill-bar-fill" data-width="35"></div>
-            </div>
-            <div class="skill-level">Iniciante</div>
-          </div>
+        <div class="skill-item reveal">
+          <div class="skill-header"><span class="skill-name">Java</span><span class="skill-pct">50%</span></div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="50"></div></div>
+          <div class="skill-level">Intermediário</div>
         </div>
+
+        <div class="skill-item reveal">
+          <div class="skill-header"><span class="skill-name">Spring Framework</span><span class="skill-pct">30%</span></div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="30"></div></div>
+          <div class="skill-level">Iniciante</div>
+        </div>
+
+        <div class="skill-item reveal">
+          <div class="skill-header"><span class="skill-name">PostgreSQL</span><span class="skill-pct">30%</span></div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="30"></div></div>
+          <div class="skill-level">Iniciante</div>
+        </div>
+
+        <div class="skill-item reveal">
+          <div class="skill-header"><span class="skill-name">React</span><span class="skill-pct">25%</span></div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="25"></div></div>
+          <div class="skill-level">Iniciante</div>
+        </div>
+
+        <div class="skill-item reveal">
+          <div class="skill-header"><span class="skill-name">C / C++</span><span class="skill-pct">50%</span></div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="50"></div></div>
+          <div class="skill-level">Intermediário</div>
+        </div>
+
+        <div class="skill-item reveal">
+          <div class="skill-header"><span class="skill-name">Git & Versionamento</span><span class="skill-pct">35%</span></div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="35"></div></div>
+          <div class="skill-level">Iniciante</div>
+        </div>
+
+        <div class="skill-item reveal">
+          <div class="skill-header"><span class="skill-name">HTML & CSS</span><span class="skill-pct">40%</span></div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="40"></div></div>
+          <div class="skill-level">Iniciante / Intermediário</div>
+        </div>
+
+        <div class="skill-item reveal">
+          <div class="skill-header"><span class="skill-name">Inglês</span><span class="skill-pct">75%</span></div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="75"></div></div>
+          <div class="skill-level">Intermediário / Avançado (B2)</div>
+        </div>
+
+        <div class="skill-item reveal">
+          <div class="skill-header"><span class="skill-name">Modelagem Relacional</span><span class="skill-pct">35%</span></div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="35"></div></div>
+          <div class="skill-level">Iniciante</div>
+        </div>
+
       </div>
-    </section>
+    </div>
+  </section>
 
-    <div class="section-divider"></div>
+  <div class="section-divider"></div>
 
-    <!-- PROJETOS -->
-    <section class="block" id="projetos">
-      <p class="section-label reveal">03 — Projetos</p>
-      <h2 class="section-title reveal">O que estou construindo</h2>
-      <div class="projects-grid">
-        <div class="project-card featured reveal">
-          <div class="project-featured-text">
-            <div class="project-badge">
-              <span class="badge-dot"></span>Em desenvolvimento
-            </div>
-            <h3 class="project-title">NutriTrack</h3>
-            <p class="project-desc">
-              Projeto pessoal de maior escopo: uma aplicação de rastreamento
-              nutricional que permite registrar refeições, monitorar
-              macronutrientes e acompanhar metas diárias. Back-end desenvolvido
-              em Java com Spring Boot e banco de dados PostgreSQL, com front-end
-              em React.
-            </p>
-            <div class="project-tech">
-              <span class="tech-chip">Java</span>
-              <span class="tech-chip">Spring Boot</span>
-              <span class="tech-chip">PostgreSQL</span>
-              <span class="tech-chip">React</span>
-              <span class="tech-chip">REST API</span>
-            </div>
-            <a
-              href="https://github.com/ArthurLumertzG"
-              target="_blank"
-              class="project-link"
-            >
-              Ver no GitHub
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path d="M7 17L17 7M17 7H7M17 7v10" />
-              </svg>
-            </a>
-          </div>
-          <div class="project-img-wrap">
-            <div class="project-img-placeholder">🥗</div>
-          </div>
-        </div>
+  <!-- PROJETOS -->
+  <section class="block" id="projetos">
+    <p class="section-label reveal">03 — Projetos</p>
+    <h2 class="section-title reveal">O que estou construindo</h2>
+    <div class="projects-grid">
 
-        <div class="project-card reveal">
-          <h3 class="project-title">Cálculos Matemáticos</h3>
-          <p class="project-desc">
-            Aplicação desktop em Java com interface gráfica para operações
-            matemáticas. Estrutura organizada e implementação funcional.
-          </p>
+      <div class="project-card featured reveal">
+        <div class="project-featured-text">
+          <div class="project-badge"><span class="badge-dot"></span>Em desenvolvimento</div>
+          <h3 class="project-title">NutriTrack</h3>
+          <p class="project-desc">Projeto pessoal de maior escopo: uma aplicação de rastreamento nutricional que permite registrar refeições, monitorar macronutrientes e acompanhar metas diárias. Back-end desenvolvido em Java com Spring Boot e banco de dados PostgreSQL, com front-end em React.</p>
           <div class="project-tech">
-            <span class="tech-chip">Java</span
-            ><span class="tech-chip">Swing</span>
+            <span class="tech-chip">Java</span>
+            <span class="tech-chip">Spring Boot</span>
+            <span class="tech-chip">PostgreSQL</span>
+            <span class="tech-chip">React</span>
+            <span class="tech-chip">REST API</span>
           </div>
-          <a
-            href="https://github.com/ArthurLumertzG/trabalhoCalculosJAVA"
-            target="_blank"
-            class="project-link"
-          >
+          <a href="https://github.com/ArthurLumertzG" target="_blank" class="project-link">
             Ver no GitHub
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-            >
-              <path d="M7 17L17 7M17 7H7M17 7v10" />
-            </svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
           </a>
         </div>
-
-        <div class="project-card reveal">
-          <h3 class="project-title">Sistema de Gestão Veterinária</h3>
-          <p class="project-desc">
-            Sistema completo de clínica veterinária com modelagem relacional,
-            consultas complexas e integração Java + PostgreSQL.
-          </p>
-          <div class="project-tech">
-            <span class="tech-chip">Java</span
-            ><span class="tech-chip">PostgreSQL</span
-            ><span class="tech-chip">JDBC</span>
-          </div>
-          <a
-            href="https://github.com/ArthurLumertzG/projeto-banco-de-dados"
-            target="_blank"
-            class="project-link"
-          >
-            Ver no GitHub
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-            >
-              <path d="M7 17L17 7M17 7H7M17 7v10" />
-            </svg>
-          </a>
-        </div>
-
-        <div class="project-card reveal" style="grid-column: span 2">
-          <h3 class="project-title">Projeto Final POO</h3>
-          <p class="project-desc">
-            Projeto acadêmico de encerramento da disciplina de Programação
-            Orientada a Objetos. Aplicação desktop Java com objetivo claro,
-            estrutura organizada e uso de boas práticas de POO.
-          </p>
-          <div class="project-tech">
-            <span class="tech-chip">Java</span
-            ><span class="tech-chip">POO</span>
-          </div>
-          <a
-            href="https://github.com/ckzwebber/unesc-final-java-project"
-            target="_blank"
-            class="project-link"
-          >
-            Ver no GitHub
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-            >
-              <path d="M7 17L17 7M17 7H7M17 7v10" />
-            </svg>
-          </a>
+        <div class="project-img-wrap">
+          <div class="project-img-placeholder">🥗</div>
         </div>
       </div>
-    </section>
 
-    <div class="section-divider"></div>
+      <div class="project-card reveal">
+        <h3 class="project-title">Cálculos Matemáticos</h3>
+        <p class="project-desc">Aplicação desktop em Java com interface gráfica para operações matemáticas. Estrutura organizada e implementação funcional.</p>
+        <div class="project-tech"><span class="tech-chip">Java</span><span class="tech-chip">Swing</span></div>
+        <a href="https://github.com/ArthurLumertzG/trabalhoCalculosJAVA" target="_blank" class="project-link">
+          Ver no GitHub
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+        </a>
+      </div>
 
-    <!-- FORMAÇÃO -->
-    <section id="formacao">
-      <div
-        class="block"
-        style="max-width: 1100px; margin: 0 auto; padding: 0 60px"
-      >
-        <p class="section-label reveal">04 — Formação</p>
-        <h2 class="section-title reveal">Educação & Cursos</h2>
-        <div class="edu-grid">
-          <div class="edu-item reveal">
-            <div class="edu-year">2023 — Presente</div>
-            <div class="edu-title">Ciência da Computação</div>
-            <div class="edu-inst">
-              UNESC — Universidade do Extremo Sul Catarinense · 5º Semestre
-            </div>
-          </div>
+      <div class="project-card reveal">
+        <h3 class="project-title">Sistema de Gestão Veterinária</h3>
+        <p class="project-desc">Sistema completo de clínica veterinária com modelagem relacional, consultas complexas e integração Java + PostgreSQL.</p>
+        <div class="project-tech"><span class="tech-chip">Java</span><span class="tech-chip">PostgreSQL</span><span class="tech-chip">JDBC</span></div>
+        <a href="https://github.com/ArthurLumertzG/projeto-banco-de-dados" target="_blank" class="project-link">
+          Ver no GitHub
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+        </a>
+      </div>
 
-          <div class="edu-item reveal">
-            <div class="edu-year">Em andamento</div>
-            <div class="edu-title">Batismo de Java</div>
-            <div class="edu-inst">
-              Java10x · Instrutor Fiasco — Aprofundamento em Java e ecossistema
-              back-end
-            </div>
-          </div>
+      <div class="project-card reveal">
+        <h3 class="project-title">Projeto Final POO</h3>
+        <p class="project-desc">Projeto acadêmico de encerramento da disciplina de Programação Orientada a Objetos. Aplicação desktop Java com objetivo claro, estrutura organizada e uso de boas práticas de POO.</p>
+        <div class="project-tech"><span class="tech-chip">Java</span><span class="tech-chip">POO</span></div>
+        <a href="https://github.com/ckzwebber/unesc-final-java-project" target="_blank" class="project-link">
+          Ver no GitHub
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+        </a>
+      </div>
 
-          <div class="edu-item reveal">
-            <div class="edu-year">Até 2022</div>
-            <div class="edu-title">Ensino Médio</div>
-            <div class="edu-inst">Escola Estadual · Três Cachoeiras, RS</div>
-          </div>
+    </div>
+  </section>
 
-          <div class="edu-item reveal">
-            <div class="edu-year">Contínuo</div>
-            <div class="edu-title">Inglês Técnico</div>
-            <div class="edu-inst">
-              Nível B2 — Leitura de documentação, cursos e conteúdo
-              internacional
-            </div>
-          </div>
+  <div class="section-divider"></div>
+
+  <!-- FORMAÇÃO -->
+  <section id="formacao">
+    <div class="block" style="max-width:1100px;margin:0 auto;padding:0 60px;">
+      <p class="section-label reveal">04 — Formação</p>
+      <h2 class="section-title reveal">Educação & Cursos</h2>
+      <div class="edu-grid">
+
+        <div class="edu-item reveal">
+          <div class="edu-year">2023 — Presente</div>
+          <div class="edu-title">Ciência da Computação</div>
+          <div class="edu-inst">UNESC — Universidade do Extremo Sul Catarinense · 5º Semestre</div>
         </div>
+
+        <div class="edu-item reveal">
+          <div class="edu-year">Em andamento</div>
+          <div class="edu-title">Batismo de Java</div>
+          <div class="edu-inst">Java10x · Instrutor Fiasco — Aprofundamento em Java e ecossistema back-end</div>
+        </div>
+
+        <div class="edu-item reveal">
+          <div class="edu-year">Até 2022</div>
+          <div class="edu-title">Ensino Médio</div>
+          <div class="edu-inst">Escola Estadual · Três Cachoeiras, RS</div>
+        </div>
+
+        <div class="edu-item reveal">
+          <div class="edu-year">Contínuo</div>
+          <div class="edu-title">Inglês Técnico</div>
+          <div class="edu-inst">Nível B2 — Leitura de documentação, cursos e conteúdo internacional</div>
+        </div>
+
       </div>
-    </section>
+    </div>
+  </section>
 
-    <div class="section-divider"></div>
+  <div class="section-divider"></div>
 
-    <!-- CONTATO -->
-    <section id="contato">
-      <p class="section-label reveal">05 — Contato</p>
-      <h2 class="section-title reveal">Vamos conversar?</h2>
-      <p class="reveal">
-        Estou em busca da minha primeira oportunidade como estagiário ou
-        desenvolvedor júnior. Se você tem uma vaga ou quer trocar uma ideia, é
-        só entrar em contato.
-      </p>
-      <div class="contact-links reveal">
-        <a
-          href="https://www.linkedin.com/in/arthur-lumertz-guimaraes-169220341/"
-          target="_blank"
-          class="contact-item"
-        >
-          <span class="contact-icon">💼</span>
-          <span class="contact-label">LinkedIn</span>
-          <span class="contact-value">Arthur Lumertz Guimarães</span>
-        </a>
-        <a
-          href="https://github.com/ArthurLumertzG"
-          target="_blank"
-          class="contact-item"
-        >
-          <span class="contact-icon">🐙</span>
-          <span class="contact-label">GitHub</span>
-          <span class="contact-value">ArthurLumertzG</span>
-        </a>
-        <a href="mailto:arthurlugui@gmail.com" class="contact-item">
-          <span class="contact-icon">✉️</span>
-          <span class="contact-label">E-mail</span>
-          <span class="contact-value">arthurlugui@gmail.com</span>
-        </a>
-      </div>
-    </section>
+  <!-- CONTATO -->
+  <section id="contato">
+    <p class="section-label reveal">05 — Contato</p>
+    <h2 class="section-title reveal">Vamos conversar?</h2>
+    <p class="reveal">Estou em busca da minha primeira oportunidade como estagiário ou desenvolvedor júnior. Se você tem uma vaga ou quer trocar uma ideia, é só entrar em contato.</p>
+    <div class="contact-links reveal">
+      <a href="https://www.linkedin.com/in/arthur-lumertz-guimaraes-169220341/" target="_blank" class="contact-item">
+        <span class="contact-icon">💼</span>
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">Arthur Lumertz Guimarães</span>
+      </a>
+      <a href="https://github.com/ArthurLumertzG" target="_blank" class="contact-item">
+        <span class="contact-icon">🐙</span>
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">ArthurLumertzG</span>
+      </a>
+      <a href="/cdn-cgi/l/email-protection#157467617d6067796072607c557278747c793b767a78" class="contact-item">
+        <span class="contact-icon">✉️</span>
+        <span class="contact-label">E-mail</span>
+        <span class="contact-value"><span class="__cf_email__" data-cfemail="97f6e5e3ffe2e5fbe2f0e2fed7f0faf6fefbb9f4f8fa">[email&#160;protected]</span></span>
+      </a>
+    </div>
+  </section>
 
-    <!-- FOOTER -->
-    <footer>
-      <span
-        >© 2025 Arthur Lumertz Guimarães · Desenvolvido com HTML, CSS & JS</span
-      >
-    </footer>
-
-    <script src="portfolio.js"></script>
-  </body>
-</html>
+  <!-- FOOTER -->
+  <footer>
+    <span>© 20
