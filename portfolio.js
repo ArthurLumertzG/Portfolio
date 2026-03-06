@@ -1,4 +1,7 @@
-// ─── Scroll Reveal ───────────────────────────────────────────────────────────
+// Marca o body para ativar animações apenas quando JS estiver rodando
+document.documentElement.classList.add("js-loaded");
+
+// ─── Scroll Reveal ────────────────────────────────────────────────────────────
 const reveals = document.querySelectorAll(".reveal");
 
 const revealObserver = new IntersectionObserver(
@@ -14,7 +17,7 @@ const revealObserver = new IntersectionObserver(
 
 reveals.forEach((el) => revealObserver.observe(el));
 
-// ─── Skill Bars ──────────────────────────────────────────────────────────────
+// ─── Skill Bars ───────────────────────────────────────────────────────────────
 const barObserver = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
@@ -32,9 +35,10 @@ document
   .querySelectorAll(".skill-item")
   .forEach((el) => barObserver.observe(el));
 
-// ─── Nav Shrink on Scroll ────────────────────────────────────────────────────
+// ─── Nav Shrink on Scroll ─────────────────────────────────────────────────────
 const nav = document.querySelector("nav");
 
 window.addEventListener("scroll", () => {
+  if (!nav) return;
   nav.style.padding = window.scrollY > 60 ? "12px 60px" : "20px 60px";
 });
